@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+    <servlet>
+        <servlet-name>Parser</servlet-name>
+        <servlet-class>ParserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Parser</servlet-name>
+        <url-pattern>/parse</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Contains</servlet-name>
+        <servlet-class>ContainsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Contains</servlet-name>
+        <url-pattern>/contains</url-pattern>
+    </servlet-mapping>
+</web-app>
