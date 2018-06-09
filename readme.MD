@@ -1,6 +1,7 @@
 # Web Server Endpoints
-This is a program to show REST Endpoints work. It's written in Java Servlet, deployed on Google App Engine.<br>
-Basically, I have implement **2** functions through end point:<br>
+This is a program to paly with designing REST Endpoints. It's written in Java Servlet, deployed on Google App Engine.<br>
+**[jsoup](https://jsoup.org/)** and **[Gson](https://github.com/google/gson)** were introduced in this program.<br>
+Basically, **2** functions have been implemented through end point:<br>
 ### 1. Return text and html with specified tags given from a url.<br>
 **Path**: ``/parse``<br>
 And there are 2 parameters:<br>
