@@ -2,7 +2,7 @@
 This is a program to show REST Endpoints work. It's written in Java Servlet, deployed on Google App Engine.<br>
 Basically, I have implement **2** functions through end point:<br>
 ### 1. Return text and html with specified tags given from a url.<br>
-**Path**: ```/parse``<br>`
+**Path**: ``/parse``<br>
 And there are 2 parameters:<br>
 **endpoint**: The url you want to access.<br>
 **tag**: Which HTML tag you want to find with. <br>
