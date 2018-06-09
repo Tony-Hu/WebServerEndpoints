@@ -9,7 +9,7 @@ And there are 2 parameters:<br>
 <br>
 **Example**: 
 [https://web-server-endpoints.appspot.com/parse?endpoint=https://cobalt.io&tag=h1](https://web-server-endpoints.appspot.com/parse?endpoint=https://cobalt.io&tag=h1)<br>
-In this case, it's finding within the URL "https://cobalt.io" with tag h1.<br>
+In this case, it's finding within the URL "https://cobalt.io" with tag ``h1``.<br>
 And, the result will be: <br>
 ```json
 {
@@ -57,7 +57,7 @@ And there are 3 parameters:<br>
 ](https://web-server-endpoints.appspot.com/contains?endpoint=www.cobalt.io&tag=h1&text=Crowdsourced%2520Pen%2520Testing%2520for%2520Modern%2520SaaS%2520Businesses
 )<br>
 
-In this case, it's finding if the text "Crowdsourced Pen Testing for Modern SaaS Businesses" exists within the URL "https://cobalt.io" with tag h1.<br>
+In this case, it's finding if the text "Crowdsourced Pen Testing for Modern SaaS Businesses" exists within the URL "www.cobalt.io" with tag ``h1``.<br>
 And the result will be: <br>
 ```json
 {
