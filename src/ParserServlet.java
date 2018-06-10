@@ -31,6 +31,13 @@ public class ParserServlet extends HttpServlet {
     List<Result> resultList = Util.parseHtmlByTag(url, tag);
     resultMap.put(tag, resultList);
 
+    allowCrossAccss(resp);
     out.println(gson.toJson(resultMap));
+  }
+
+  private void allowCrossAccss(HttpServletResponse resp) {
+    resp.addHeader("Access-Control-Allow-Origin", "*");
+    resp.addHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE, HEAD");
+    resp.addHeader("Access-Control-Allow-Headers", "X-PINGOTHER, Origin, X-Requested-With, Content-Type, Accept");
   }
 }
