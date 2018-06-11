@@ -1,6 +1,5 @@
 import com.google.gson.Gson;
 import model.Result;
-import org.jsoup.Jsoup;
 import util.Util;
 
 import javax.servlet.http.HttpServlet;
